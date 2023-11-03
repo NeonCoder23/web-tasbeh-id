@@ -1,0 +1,143 @@
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    overflow: hidden;
+}
+.content {
+    padding: 10px;
+    border-radius: 15px;
+    background: crimson;
+}
+body .tasbeh{
+    padding: 5px;
+    width: 200px;
+    position: relative;
+    border: 2px solid red;
+    border-radius: 35px;
+    background: crimson;
+    display: flex;
+    transition: 1s ease;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.num {
+    position: relative;
+    width: 80%;
+    border-radius: 35px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    height: 100px;
+    background: rgba(255,255,255, 0.25);
+    font-family: cursive;
+    -webkit-text-stroke: 1px gold;
+    transition: 1s ease;
+    color: crimson;
+}
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+button {
+    width: 60px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    /* margin-bottom: 15px; */
+    border: 0.5px solid silver;
+}
+button:active {
+    box-shadow: 0 0 5px 1px yellow;
+}
+input {
+    cursor: pointer;
+}
+#btn {
+    background: radial-gradient(wheat, snow,snow,snow,snow);
+}
+#clear {
+    position: absolute;
+    height: 12.5px;
+    width: 10px;
+    border-radius: 50%;
+    background: red;
+    bottom: 60px;
+    right: 5px;
+}
+
+/* Tasbeh with dot */
+.tasbehDot {
+    display: none;
+    padding: 5px;
+    width: 200px;
+    position: relative;
+    border: 2px solid red;
+    border-radius: 35px;
+    background: sandybrown;
+    transition: 1s ease;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
+.dotted {
+    position: relative;
+    height: 130px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    align-items: center;
+    overflow: hidden;
+    top: -40px;
+}
+.dotted .dot {
+    cursor: pointer;
+    width: 20px;
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 50%;
+    background: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* cursor: not-allowed; */
+}
+#refreshBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: red;
+}
+.tasbehDot .theme {
+    z-index: 55;
+}
+.content {
+    font-size: 14px;
+}
+.choosen {
+    border-radius: 8px;
+}
+.choosen button {
+    background: transparent;
+    border: 1.5px solid gold;
+    font-size: 15px;
+    color: gold;
+}
+#one {
+    background: cadetblue;
+}

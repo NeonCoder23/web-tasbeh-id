@@ -77,7 +77,7 @@ function dottedTasbeh() {
     const refreshBtn = document.getElementById('refreshBtn');
     beads.forEach((bead, index) => {
         bead.addEventListener('click', () => {
-            bead.style.order = '9999';
+            bead.style.order = '99';
             rotateBeads(index);
         });
     });
